@@ -8,7 +8,7 @@ const adminEmails = ['Im_Admin@gmail.com'];
 export const authOptions = {
   secret: process.env.SECRET,
   providers: [
-    GoogleProvider({
+    GoogleProvider({ 
       clientId: process.env.GOOGLE_ID,
       clientSecret: process.env.GOOGLE_SECRET
     }),
